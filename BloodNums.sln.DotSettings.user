@@ -8,9 +8,6 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AWhere_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E3_003Fresharper_002Dhost_003FSourcesCache_003F494e6d83d6d62b765c56bdcf47e1615cea109f755d152e6bce86d38a5d20f0_003FWhere_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=84f4b887_002Dcc05_002D4116_002Da804_002D63004dab9dbe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::0BF80108-80B7-4E06-AFDE-BBDB35EA7AB2::net10.0::TestProject1.Tests.Test_GetOddNumbers_ShouldReturnOddNumbers2&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::0BF80108-80B7-4E06-AFDE-BBDB35EA7AB2::net10.0::TestProject1.Tests.Test_GetOddNumbers_ShouldReturnOddNumbers_EmptyNumbers&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::0BF80108-80B7-4E06-AFDE-BBDB35EA7AB2::net10.0::TestProject1.Tests.Test_GetOddNumbers_ShouldReturnOddNumbers_NullNumbers&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::0BF80108-80B7-4E06-AFDE-BBDB35EA7AB2::net10.0::TestProject1.Tests.Test_GetOddNumbers_ShouldReturnOddNumbers_NoNumbers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0BF80108-80B7-4E06-AFDE-BBDB35EA7AB2::net10.0::TestProject1.Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
