@@ -7,7 +7,7 @@ public class Program
     public static void Main(string[] args)
     {
         var nums = new Nums();
-        var result = nums.GetOddNumbers([1, 2, 3, 4, 5]);
+        var result = nums.GetOddNumbers([1, 2, 3, 4, 5, 6, 7 , 8, 9]);
         foreach (var i in result)
         {
             Console.WriteLine(i);
