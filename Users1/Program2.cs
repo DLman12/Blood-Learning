@@ -1,6 +1,6 @@
 ﻿namespace Users1;
 
-public class Program
+public class Program2
 {
     public static void Main(string[] args)
     {
@@ -19,5 +19,6 @@ public class Program
         };
 
         var result = new LeftJoin().GetStudentsWithCourses(students, courses);
+        Console.WriteLine(result);
     }
 }
