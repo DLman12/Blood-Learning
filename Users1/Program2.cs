@@ -17,12 +17,25 @@ public class Program2
             new() { Id = Guid.NewGuid(), Title = "Физика", StudentId = students[0].Id },
             new() { Id = Guid.NewGuid(), Title = "История", StudentId = students[1].Id }
         };
-
-        var nums = new LeftJoin();
+        
         var result = new LeftJoin().GetStudentsWithCourses(students, courses);
-        foreach (var i in result)
+        foreach (var (student, studentCourses) in result)
         {
-            Console.WriteLine(i);
+            Console.WriteLine($"Студент: {student.FullName} (ID: {student.Id})");
+            Console.WriteLine("Курсы:");
+            
+            if (studentCourses.Any())
+            {
+                foreach (var course in studentCourses)
+                {
+                    Console.WriteLine($"  - {course.Title} (ID курса: {course.Id})");
+                }
+            }
+            else
+            {
+                Console.WriteLine("  Нет курсов");
+            }
+            Console.WriteLine(); // Пустая строка для разделения
         }
     }
 }
