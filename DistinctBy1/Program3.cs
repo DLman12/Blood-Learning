@@ -4,11 +4,14 @@ public class Program3
 {
     public static void Main(string[] args)
     {
+        
+        var repeatedGuid = Guid.NewGuid();
+        
         var users = new List<DistinctBy.User>
         {
-            new() { Id = Guid.NewGuid(), Age = 18, Name = "John Doe" },
+            new() { Id = repeatedGuid, Age = 18, Name = "John Doe" },
             new() { Id = Guid.NewGuid(), Age = 18, Name = "Jane Doe" },
-            new() { Id = Guid.NewGuid(), Age = 18, Name = "John Doe" }
+            new() { Id = repeatedGuid, Age = 18, Name = "John Doe" }
         };
         
         var result = new DistinctBy().DistinctByIdUsers(users);
