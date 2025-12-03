@@ -4,6 +4,17 @@ public class Program3
 {
     public static void Main(string[] args)
     {
+        var users = new List<DistinctBy.User>
+        {
+            new() { Id = Guid.NewGuid(), Age = 18, Name = "John Doe" },
+            new() { Id = Guid.NewGuid(), Age = 18, Name = "Jane Doe" },
+            new() { Id = Guid.NewGuid(), Age = 18, Name = "John Doe" }
+        };
         
+        var result = new DistinctBy().DistinctByIdUsers(users);
+        foreach (var i in result)
+        {   
+            Console.WriteLine($"{i.Id} - {i.Age} - {i.Name}");
+        }
     }
 }
