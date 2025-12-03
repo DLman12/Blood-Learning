@@ -19,7 +19,9 @@ public class LeftJoin
         ICollection<Student> students,
         ICollection<Course> courses)
     {
-        return students.GroupJoin(courses, x => x.Id, g => g.StudentId, 
+        return students.GroupJoin(courses, 
+            x => x.Id, 
+            g => g.StudentId, 
             (x,g) => (x,g.ToList())).ToList();
             
     }

@@ -18,7 +18,11 @@ public class Program2
             new() { Id = Guid.NewGuid(), Title = "История", StudentId = students[1].Id }
         };
 
+        var nums = new LeftJoin();
         var result = new LeftJoin().GetStudentsWithCourses(students, courses);
-        Console.WriteLine(result);
+        foreach (var i in result)
+        {
+            Console.WriteLine(i);
+        }
     }
 }
