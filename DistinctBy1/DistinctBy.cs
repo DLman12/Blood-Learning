@@ -1,6 +1,6 @@
 ﻿namespace DistinctBy1;
 
-public class DistinctBy
+internal sealed class DistinctBy
 {
     public sealed record User
     {
