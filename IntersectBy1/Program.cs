@@ -20,8 +20,8 @@ public class Program4
             new() { Id = Guid.NewGuid(), Age = 17, Name = "John Two" }
         };
         
-        var result = new IntersectBy().FindUsersWithSameName;
-        foreach(var user in users1)
+        var result = new IntersectBy().FindUsersWithSameName(users1, users2);
+        foreach (var user  in result)
         {   
             Console.WriteLine($"{user.Id} - {user.Age} - {user.Name}");
         }
